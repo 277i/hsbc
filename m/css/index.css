@@ -6,7 +6,7 @@ body {
   background-color: #fff !important;
 }
 .bj {
-  background: url("../images/main.jpg") no-repeat center top/100% 100%;
+  /* background: url("../images/main.jpg") no-repeat center top/100% 100%; */
 }
 .logo {
   width: 1.75rem;
@@ -66,7 +66,7 @@ body {
 /*版权*/
 .copyright {
   position: absolute;
-  bottom:8%;
+  bottom: 8%;
   width: 100%;
   text-align: center;
   height: 0.5rem;
@@ -106,7 +106,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   position: relative;
-  overflow:scroll;
+  overflow: scroll;
   list-style: none;
   padding: 0;
   z-index: 1;
@@ -132,8 +132,8 @@ body {
   margin-top: 1.8rem;
 }
 .navbox .r,
-.navbox .c  {
-  margin-top: 0.3rem ;
+.navbox .c {
+  margin-top: 0.3rem;
 }
 .navbox .l img,
 .navbox .r img,
@@ -153,7 +153,7 @@ body {
   color: #cc2c2f;
   padding: 0.2rem 0 0.15rem 0.16rem;
   box-sizing: border-box;
-  font-family: 'Heavy';
+  font-family: "Heavy";
   margin-left: 0.15rem;
 }
 .sjx {
@@ -161,22 +161,21 @@ body {
   height: 0.2rem !important;
   vertical-align: middle;
   margin-right: 0.1rem;
-
 }
 .navbox a {
   font-size: 0.24rem;
   color: rgb(50, 50, 50);
 }
 
-body{
-  font-family: 'light' !important;
+body {
+  font-family: "light" !important;
 }
 @font-face {
   font-family: light;
-  src: url('../font/light.woff') format('truetype');
+  src: url("../font/light.woff") format("truetype");
 }
 
 @font-face {
   font-family: Heavy;
-  src: url('../font/Heavy.woff') format('truetype');
+  src: url("../font/Heavy.woff") format("truetype");
 }
