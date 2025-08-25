@@ -246,7 +246,13 @@ img{
 .jie div p b{
     color: #000;
 }
-
+.bottom{
+    width: 100%;
+}
+.bottom img{
+    width: 100%;
+    display:block;
+}
 /*版权*/
 .copyright{
     margin: 0.4rem auto 0;
